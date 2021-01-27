@@ -56,7 +56,11 @@ h3 {
 
 @media (max-width: 500px) { /* photo show or no */
     .container img {display: none;}
-    .body {max-width: 450px;}
+    .body {
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (min-width: 900px) { /* logo resize */
