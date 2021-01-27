@@ -104,13 +104,15 @@ h3 {
 
 .site-nav a {
     display: block;
-    font-size: xx-small;
+    font-size: 5px;
 	color: #858585;
 	text-decoration: none;
-	padding: 20px 20px;
 }
 @media (min-width: 900px) { /* font-size; */
-    .site-nav a {font-size: 16px;}
+    .site-nav a {
+        font-size: 16px;
+        padding: 20px 20px;
+    }
 }
 
 .site-nav a:hover {
@@ -159,9 +161,10 @@ h1 .slash {
 }
 
 @media (max-width: 600px) {
-    .text {
+    .aboutme, .container-victrtran, .text {
         max-width: 450px;
-        margin-left: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
