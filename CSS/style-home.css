@@ -155,8 +155,8 @@ h1 .slash {
     margin-right: 50px;
 }
 
-@media (max-width: 600px) {
-    .aboutme, .container, .text {
+@media (max-width: 600px) { /* ALLL CONTAINERS */
+    .aboutme, .photography, .graphics, .wireframes, .container, .text {
         max-width: 400px;
         margin-left: auto;
         margin-right: auto;
