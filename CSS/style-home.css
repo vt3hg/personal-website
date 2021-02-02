@@ -221,15 +221,16 @@ h1 .slash {
 }
 
 .graphics a {
-    color: #dba237;
-    border: 2px solid #dba237;
+    color: #A8605D;
+    border: 2px solid #A8605D;
 }
 
 .graphics a:hover {
-    background-color: #dba237;
+    background-color: #A8605D;
     color: #ffffff;
-    border: 2px solid #dba237; 
+    border: 2px solid #A8605D; 
 }
+
 /* end GRAPHICS */
 
 /* start WIREFRAME */
@@ -249,13 +250,13 @@ h1 .slash {
 }
 
 .wireframes a {
-    color: #A8605D;
-    border: 2px solid #A8605D;
+    color: #dba237;
+    border: 2px solid #dba237;
 }
 
 .wireframes a:hover {
-    background-color: #A8605D;
+    background-color: #dba237;
     color: #ffffff;
-    border: 2px solid #A8605D; 
+    border: 2px solid #dba237; 
 }
 /* end WIREFRAME */
